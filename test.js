@@ -60,7 +60,7 @@ describe("POST Registrasi USER BERHASIL", function(){
         .send({email: "michael.lawson@reqres.in",
             password: "Pengamen"});
         // console.log(response)
-
+       // console.log(response)
         expect(response.body.email).to.eql('michael.lawson@reqres.in')
         expect(response.body.password).to.eql('Pengamen')
 
